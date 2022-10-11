@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import Navbar from "./components/Navbar";
 import { useSelector, useDispatch } from "react-redux";
 import { calulateTotals, getCartItems } from "./features/cart/cartSlice";
